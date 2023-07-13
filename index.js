@@ -4,7 +4,7 @@ function chequearParametros(parametros) {
     const tieneDosDigitos = parametros[0].length == 2;
     
     if(tieneDosDigitos) {
-        const parametroNumerico = Number(parametros[0]);
+        const parametroNumerico = Number(parametros[0]); //constructor de número
         return parametroNumerico;
     }
 
